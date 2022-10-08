@@ -1,0 +1,7 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    gcp:
+      pubsub:
+        emulator-host: localhost:8937
